@@ -1,35 +1,238 @@
+/*
+ *	Main - Homepage Custom CSS. Freelanceros 2017.
+ *	Designed on: 30/04/2017
+ *	HTML5 & CSS3
+ *	Responsive & layout: Foundation - http://foundation.zurb.com/ -	 
+ *
+ *	Analisis de sistemas - Universidad del Valle de Guatemala
+ *	Eric Mendoza, Rodrigo Custodio, Carlos Calderon, Gabriel Brolo.
+ */
+
+/* 
+ *	Body 
+ */
 body {
+	/* Google Font */
 	font-family: 'Open Sans', sans-serif;
 }
 
-/* Headers */
+/* 
+ * Headers 
+ */
 h1, h2, h3, h4, h5 {
+	/* Google Font */
 	font-family: 'Lato', sans-serif;
 }
 
-/* Containers */
+/* 
+ * Containers 
+ */
+/* Main */
 .container {
 	padding: 40px 160px;
 }
 
+/* Más espacio */
 .container-grande {
 	padding: 80px 160px;
 }
 
-/* Backgrounds */
-.background-blue {
-	background-color: #2c3e50;
+/* Menos espacio. Usado para algunos titulos. */
+.container-small {
+	padding: 10px 160px;
 }
 
-/* Header */
+/* 
+ *	Backgrounds 
+ */
+ /* Top */
+.background-mainCont {
+	background-color: #2c3e50;
+	background-image: url("../img/chineese-woman-stock-low-1920px1080px.jpg");
+	width: 100%
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.background-info {
+	background-color: #f4f4f4;
+}
+
+/* 
+ *	Header 
+ */
 header#main {
 	margin-bottom: 40px;
 }
 
+/* Logo */
 header#main .logo a{
 	display: block;
 	font-family: 'Roboto', sans-serif;
 	font-size: 2em;
 	color: #ffffff;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+
+/* 
+ *	Nav 
+ */
+/* Unordered lists */
+nav#main ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float:right;
+}
+
+/* List items */
+nav#main ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+/* Ultimo elemento */
+nav#main ul li:last-child {
+	margin-right: 0;
+}
+
+nav#main ul li a {
+	font-size: 78%;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+nav#main ul li a:not(.button) {
+	color: #393f4a;
+}
+
+/*
+ *	Botones
+ */
+
+.button {
+	padding: 14px 30px;
+	border-radius: 5px;
+}
+
+.button-primary {
+	background: #36526d;
+}
+
+.button-primary:hover {
+	background: #2c3e50;
+}
+
+/*
+ *	Slogan
+ */
+
+.slogan {
+	margin-top: 20px;
+}
+
+.slogan h1 {
+	font-size: 3.5em;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 900;
+	line-height: 52px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-shadow: 1px 1px 50px #181818;
+}
+
+/*
+ *	Info
+ */
+
+.info {
+	text-align: center;
+}
+
+.info h5 {
+	font-weight: 600;
+	font-size: 1.4em;
+}
+
+.info p {
+	font-size: 80%;
+	margin-bottom: 40px;
+	padding: 0 120px;
+}
+
+.info img {
+	margin-bottom: 20px;
+}
+
+/* cliente */
+
+.info-cliente {
+	text-align: center;
+}
+
+.info-cliente h5 {
+	font-weight: 600;
+	font-size: 1.2em;
+}
+
+.info-cliente p {
+	font-size: 80%;
+	margin-bottom: 40px;
+}
+
+.info-cliente img {
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+/*
+ *	Category
+ */
+
+.category-heading {
+	background: #2c3e50;
+	text-align: center
+}
+
+.category-heading h3 {
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #ffffff;
+	letter-spacing: 3px;
+	font-size: 2.5em;
+	text-shadow: 1px 1px 20px #181818;
+}
+
+/*
+ *	Hover Buttons
+ */
+
+.hoverbuttons {
+	text-align: center;
+	text-shadow: 1px 1px 50px #181818;
+}
+
+.hoverbuttons ul li a {
+	color: #ffffff;
+	border: 2px solid transparent;
+	padding: 8px 20px;
+	border-radius: 5px;
+	font-weight: 600;
+	background: rgba(256,256,256,0.3);
+}
+
+.hoverbuttons ul li a:hover {
+	border: 2px solid #ffffff;
+}
+
+.inline-list {
+	list-style-type: none;
+}
+
+.inline-list li {
+	display: inline-block;
+	margin: 0 20px;
 	margin-bottom: 20px;
 }
