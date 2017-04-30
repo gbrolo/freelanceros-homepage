@@ -1,0 +1,35 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5 {
+	font-family: 'Lato', sans-serif;
+}
+
+/* Containers */
+.container {
+	padding: 40px 160px;
+}
+
+.container-grande {
+	padding: 80px 160px;
+}
+
+/* Backgrounds */
+.background-blue {
+	background-color: #2c3e50;
+}
+
+/* Header */
+header#main {
+	margin-bottom: 40px;
+}
+
+header#main .logo a{
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
