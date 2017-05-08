@@ -1,4 +1,4 @@
-# freelanceros-homepage
+# Freelanceros-homepage
 Website homepage design for Freelanceros.
 
 Design by: Team Manco.
